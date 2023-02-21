@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest identifier="9f320929-c45a-4783-927d-d5fd10bbcfc7" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lom="http://ltsc.ieee.org/xsd/LOM" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd http://ltsc.ieee.org/xsd/LOM lom.xsd">
+<manifest identifier="d86a8c33-eaff-4c10-a57e-782b7a656c9c" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lom="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
     <metadata>
         <schema>ADL SCORM</schema>
-        <schemaversion>2004 4th Edition</schemaversion>
+        <schemaversion>1.2</schemaversion>
         <lom:lom>
             <lom:general>
                 <lom:title>
-                    <lom:string>101 American Proverbs</lom:string>
+                    <lom:langstring>101 American Proverbs</lom:langstring>
                 </lom:title>
             </lom:general>
-            <lom:metaMetadata></lom:metaMetadata>
         </lom:lom>
     </metadata>
     <organizations default="caad108d-b165-11ed-b2fa-9e0ebc6670e9_org">
@@ -17,17 +16,11 @@
             <title>101 American Proverbs</title>
             <item identifier="caad108d-b165-11ed-b2fa-9e0ebc6670e9" identifierref="resource">
                 <title>101 American Proverbs</title>
-                <imsss:sequencing>
-                    <imsss:deliveryControls completionSetByContent="true" objectiveSetByContent="true"></imsss:deliveryControls>
-                </imsss:sequencing>
             </item>
-            <imsss:sequencing>
-                <imsss:controlMode flow="true"></imsss:controlMode>
-            </imsss:sequencing>
         </organization>
     </organizations>
     <resources>
-        <resource identifier="resource" type="webcontent" adlcp:scormType="sco" href="res/index.html">
+        <resource identifier="resource" type="webcontent" adlcp:scormtype="sco" href="res/index.html">
             <file href="res/fonts/exo2/exo2-bold-italic.woff"></file>
             <file href="res/fonts/exo2/exo2-bold.woff"></file>
             <file href="res/fonts/exo2/exo2-italic.woff"></file>
